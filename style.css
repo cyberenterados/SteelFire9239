@@ -7,7 +7,7 @@
 
 body {
     background: #000;
-    color: #fff;
+    color: #35336c;
     background-color: #8786b5;
     /**
     background-color: #0c0c0c;
@@ -19,7 +19,7 @@ body {
 }
 
 a {
-    color: #fff;
+    color: #35336c;
     text-decoration: none;
 }
 
@@ -28,7 +28,7 @@ ul {
 }
 
 .container{
-    width: 90%;
+    width: 95%;
     margin: auto;
 }
 
@@ -44,8 +44,9 @@ ul {
 
 }
 
-.nav-brand{
-    width: 50px;
+.portada{
+    height: 50px;
+    width: auto;
 
 }
 
@@ -160,15 +161,19 @@ hr{
 
 .card-banner-one {
     width: 100%;
-    height: 200px;
-    background: url(img/banner-steelfire1.png) no-repeat center center/cover;   
+    height: 450px;
+    background: url(img/banner-steelfire.png) no-repeat center center/cover;   
     margin-bottom: 40px;
+}
+
+.videos{
+    color: #35336c;
 }
 
 .card-banner-two {
     width: 100%;
-    height: 200px;
-    background: url(img/banner-steelfire2.png) no-repeat center center/cover;   
+    height: 350px;
+    background: url(img/banner-formula.png) no-repeat center center/cover;   
     margin-bottom: 40px;
 }
 
@@ -181,6 +186,7 @@ hr{
 .card-banner-one p,
 .card-banner-one h2 {
     margin: 10px 0 20px 0;
+    
 }
 
 /* cards others */
@@ -366,6 +372,20 @@ hr{
     .card-banner-one .content,
     .cards-banner-two .content{
         width: 80%;
+    }
+
+    .card-banner-one{
+        width: 100%;
+        height: 150px;
+        background: url(img/banner-steelfire.png) no-repeat center center/cover;   
+        margin-bottom: 40px;
+    }
+
+    .card-banner-two {
+    width: 100%;
+    height: 130px;
+    background: url(img/banner-formula.png) no-repeat center center/cover;   
+    margin-bottom: 40px;
     }
 
     .footer-links .footer-container {
